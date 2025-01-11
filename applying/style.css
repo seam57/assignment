@@ -4,13 +4,15 @@ body{
 .banner{
     margin-left: 100px;
     position: static;
-   /* border: 169px 300px ;\**/
-    border: 10px 30px ;
    
+    border: 10px 30px ;
     padding: 20px; 
     background-color: #C6E4D6;
-    border-radius: 8px;
-    border-right-width: 50px;
+    border-radius: 24px;
+   /* border-right-width: 50px;  */
+   width: 50%;
+   margin: 0 0;
+    
 
     
     
@@ -62,8 +64,14 @@ h1{
 height: 329.21px;
 left: 745.99px;
 right: -157.37%;
-top: 8%;
+top: 5%;
 bottom: -2.3%;
+
     
   
+}
+.bangladesh2{
+    position: static;
+    width: 1280px;
+    height: 48px;
 }
