@@ -1,0 +1,69 @@
+body{
+    
+}
+.banner{
+    margin-left: 100px;
+    position: static;
+   /* border: 169px 300px ;\**/
+    border: 10px 30px ;
+   
+    padding: 20px; 
+    background-color: #C6E4D6;
+    border-radius: 8px;
+    border-right-width: 50px;
+
+    
+    
+  
+   
+
+}
+
+h3{
+    color: rgba(14, 14, 14, 0.5);
+    position: static;
+    width: 622px;
+    height: 29px;
+    margin-left: 59.99px;
+    }
+
+
+    
+h1{
+    color: #0E0E0E;
+    
+    font-size: 56px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+   margin-left: 59.99px;
+    
+
+}
+.bt{
+    
+    padding: 17px 34px 17px 34px;
+    color: white;
+    background-color: #006A50;
+    justify-content: center;
+     align-items: center;
+     border-radius: 10px;
+     gap: 48;
+     margin-left: 59.99px;
+    
+    
+    
+}
+.heroo{
+    position: absolute;
+    width: 474.03px;
+height: 329.21px;
+left: 745.99px;
+right: -157.37%;
+top: 8%;
+bottom: -2.3%;
+    
+  
+}
