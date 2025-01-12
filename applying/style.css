@@ -60,8 +60,8 @@ h1{
     transition: all 0.3s ease;
 }
 .heroo{
-    position: absolute;
-    width: 474.03px;
+position: absolute;
+width: 474.03px;
 height: 329.21px;
 left: 745.99px;
 right: -157.37%;
@@ -176,14 +176,23 @@ main section{
     font-weight: bold;
     border: none;
     border-radius: 8px;
-    
+
+}
+.read-more-btn:hover{
+    background-color: rgb(195, 12, 119);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
 }
 .image{
     border-radius: 24px;
 }
 .news-subtitle{
+position: static;
+width: 1280px;
+height: 48px;
 font-weight: 400;
 font-size: 28PX;
+text-align: left;
 
 }
 .news-heading{
@@ -197,4 +206,119 @@ font-size: 28PX;
     height: 72px;
     order: 3;
     color: rgba(14, 14, 14, 0.7);
+}
+
+.first-step{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: rgba(14, 14, 14, 0.8);
+    text-align: left;
+    width: 240px;
+    height: 128px;
+    gap: 24px;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.sec-step{
+    background-color: rgb(198, 228, 214);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    width: 240px;
+    height: 128px;
+    gap: 24px;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+.thir-step{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: rgba(14, 14, 14, 0.8);
+    text-align: left;
+    width: 240px;
+    height: 128px;
+    gap: 24px;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}
+.four-step{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: rgba(14, 14, 14, 0.8);
+    text-align: left;
+    width: 240px;
+    height: 128px;
+    gap: 24px;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.p-point{
+    font-weight: 400;
+    font-size:40px ;
+    font-family: Fira Sans;
+    flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+margin-left: 200px;
+
+}
+.option{
+    margin-bottom: 100px;
+    margin-left: 200px;
+}
+.heading{
+    margin-left: 320px;
+}
+.custom-amount{ 
+position: static;
+width: 1032px;
+height: 64px;
+margin-left: 200px;
+adding: 20px 40px 20px 40px;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+}
+.donated{
+    position: static;
+width: 151px;
+height: 56px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 17px 34px 17px 34px;
+margin-left: 710px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+background: rgb(0, 106, 80);
+font-size: 18px;
+font-weight: 600;
+color: 
+rgb(255, 255, 255);
+
+}
+.donated:hover{
+    background-color: rgba(27, 29, 150, 0.237);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
 }
